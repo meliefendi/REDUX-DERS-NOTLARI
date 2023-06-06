@@ -36,6 +36,11 @@ export const todosSlice = createSlice({
         // filtreleme işlemi
         changeActiveFilter: (state, action) => {
             state.activeFilter = action.payload;
+        },
+        //tamamlananları silme 
+        clearCompleted : (state) => {
+            const filtered = state.items.filter((item) => item.completed === false)
+        state.items = filtered;
         }
     },
 })
