@@ -10,7 +10,8 @@ export const todosSlice = createSlice({
         items: [],
         isLoading: false,
         error: null,
-        activeFilter: localStorage.getItem("activeFilter") || "all",
+        // localStorage.getItem("activeFilter") 
+        activeFilter: "all",
         addNewTodo:{
             isLoading: false,
             error: null,
