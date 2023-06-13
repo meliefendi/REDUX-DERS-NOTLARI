@@ -14,3 +14,8 @@ function App() {
 }
 
 export default App;
+
+
+
+// https://github.com/abdulkerimkuscu/redux-noteapp
+// https://github.com/cembicakci/redux-notes-app
