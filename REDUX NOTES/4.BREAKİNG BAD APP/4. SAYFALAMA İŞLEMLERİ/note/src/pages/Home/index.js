@@ -60,6 +60,7 @@ function Home() {
 
             <div style={{ padding: "20px 0 40px 0", textAlign: "center" }}>
                 {status === "loading" && <Loading />}
+{/* BURDA DA EĞER LOADİNG YOKSA BUYON GÖSTER DİYORUZ VARSA LOADİNG ÇIKIYOR YOKSA BUTON */}
                 {hasNextPage && status !== "loading" && (
                     <button className="btn"
                         onClick={() => dispatch(fetchCharacters(nextPage))} >Load More {`(${nextPage})`}
