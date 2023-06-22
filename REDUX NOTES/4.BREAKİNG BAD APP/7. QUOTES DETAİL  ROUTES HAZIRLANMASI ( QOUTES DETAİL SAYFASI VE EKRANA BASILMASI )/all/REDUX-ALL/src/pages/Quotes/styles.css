@@ -1,0 +1,21 @@
+
+.quotes_item {
+    padding: 10px 0;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quotes_info {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid ;
+}
+
+.quotes_item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.quotes_item a:hover {
+    text-decoration: underline;
+}
