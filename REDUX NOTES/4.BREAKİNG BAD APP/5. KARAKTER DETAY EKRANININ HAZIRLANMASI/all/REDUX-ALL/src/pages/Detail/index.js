@@ -18,8 +18,14 @@ function Detail() {
     const character_id = characters.map((character) => (
         character
     ))
-    const searh_id = character_id.find(id => id.char_id == char_id)
-
+    const searh_id = character_id.find(id => id.char_id == char_id);
+    
+    // BURASI DAHA ÖNCESİNDE SAYFA YENİLEME ESNASINDA HATA VERİP KİTLENMEYE YOL AÇIYORDU. FAKAT BU İŞLEMLE BUNUN ÖNÜNE GEÇTİK. ŞİMDİ SAYFA YENİLENİNCE ARAYIP BULAMADIĞI ELEMAN 
+    // OLURSA HOME SAYFASINA YÖNLENDİRME SAĞLANDI.
+     if (!searh_id) {
+        return <Navigate to="/" />
+    };
+    
     return (
         <div>
             Detail
