@@ -20,6 +20,7 @@ function Detail() {
     ))
     const searh_id = character_id.find(id => id.char_id == char_id);
     
+     //EN SON EKLENMİŞTİR!!!
     // BURASI DAHA ÖNCESİNDE SAYFA YENİLEME ESNASINDA HATA VERİP KİTLENMEYE YOL AÇIYORDU. FAKAT BU İŞLEMLE BUNUN ÖNÜNE GEÇTİK. ŞİMDİ SAYFA YENİLENİNCE ARAYIP BULAMADIĞI ELEMAN 
     // OLURSA HOME SAYFASINA YÖNLENDİRME SAĞLANDI.
      if (!searh_id) {
