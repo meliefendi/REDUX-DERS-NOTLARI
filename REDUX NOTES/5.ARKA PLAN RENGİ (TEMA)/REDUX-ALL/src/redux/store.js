@@ -12,7 +12,7 @@ import  themSlice  from "./themeSlice"
 
 export const store = configureStore({
   reducer: {
-    theme: themSlice,
+    user: themSlice,
   }
   
 });
