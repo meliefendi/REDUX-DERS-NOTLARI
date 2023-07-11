@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const themSlice = createSlice({
-  name: 'theme',
+  name: 'user',
   initialState: { them: 'red' },
   reducers: {
     setTheme: (state, action) => {
