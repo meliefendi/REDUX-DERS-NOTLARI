@@ -10,7 +10,7 @@ import style from "./style.module.css"
 
 function Signin() {
     const dispatch = useDispatch();
-    const initialState = useSelector(state => state.theme.them)
+    const initialState = useSelector(state => state.user.them)
 
     const changeTheme = () => {
        
