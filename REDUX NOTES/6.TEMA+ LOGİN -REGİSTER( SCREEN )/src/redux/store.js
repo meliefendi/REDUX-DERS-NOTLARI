@@ -8,11 +8,12 @@
 //     }
 // })
 import { configureStore } from "@reduxjs/toolkit";
-import  themSlice  from "./themeSlice"
+import  userSlice  from "./themeSlice"
 
 export const store = configureStore({
   reducer: {
-    user: themSlice,
+    user: userSlice,
+    devTools: true,
   }
   
 });
